@@ -8,7 +8,7 @@ const directory = require('gherkin/lib/gherkin/gherkin-languages');
 module.exports = class extends Generator {
   prompting() {
     this.log(yosay(
-      'Welcome to the doozie ' + chalk.red('generator-cucumber-steps') + ' generator!'
+      'Welcome to the doozie ' + chalk.red('generator-cucumber-step-definitions') + ' generator!'
     ));
 
     const prompts = [

@@ -1,24 +1,29 @@
-# generator-cucumber-steps [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> Generates step definitions in javascript based on cucumber feature files :watermelon:
+
+> A package that generates step definitions in javascript based on cucumber feature files
 
 ![demo](http://i.imgur.com/Wh078Pu.gif)
-
-You are tired of creating a "steps file"? Me too, so I decided to simplify my problem.
 
 ## Installation
 
 ```bash
 npm install -g yo
-npm install -g generator-cucumber-steps
+npm install -g generator-cucumber-step-definitions
 ```
+OR
 
+```bash
+yarn global add yo
+yarn global add generator-cucumber-step-definitions
+```
 ## Executing
 
 ```bash
-yo cucumber-steps
+~/.yarn/bin/yo
 ```
-
-Select path to the `feature`-file (without file extension) and location where will be generated a stepsDefs file. It's simple!
+Then select `Cucumber Step Definitions`
+ 
+Select path to the feature-file (without file extension).
+Next, select the location you want the step definitions file to be generated.
 
 ## Examples
 
@@ -51,21 +56,6 @@ defineSupportCode(function ({Given, When, Then}) {
 });
 ```
 
-## Some notes
-
-Dictionary in new version of gherkin was changed. Be careful if you write your features with locale support!
-
-
 ## License
 
 MIT ©
-
-
-[npm-image]: https://badge.fury.io/js/generator-cucumber-steps.svg
-[npm-url]: https://npmjs.org/package/generator-cucumber-steps
-[travis-image]: https://travis-ci.org/lamartire/generator-cucumber-steps.svg?branch=master
-[travis-url]: https://travis-ci.org/lamartire/generator-cucumber-steps
-[daviddm-image]: https://david-dm.org/lamartire/generator-cucumber-steps.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/lamartire/generator-cucumber-steps
-[coveralls-image]: https://coveralls.io/repos/lamartire/generator-cucumber-steps/badge.svg
-[coveralls-url]: https://coveralls.io/r/lamartire/generator-cucumber-steps
