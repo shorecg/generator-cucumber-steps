@@ -58,7 +58,7 @@ Dictionary in new version of gherkin was changed. Be careful if you write your f
 
 ## License
 
-MIT © [lamartire](lamartire@gmail.com)
+MIT ©
 
 
 [npm-image]: https://badge.fury.io/js/generator-cucumber-steps.svg
