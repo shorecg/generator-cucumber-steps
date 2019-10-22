@@ -1,12 +1,11 @@
 {
   "name": "generator-cucumber-steps",
-  "version": "0.1.3",
-  "description": "Fast steps-defs based on features generation :watermelon:",
+  "version": "0.0.1",
+  "description": "Generates step definitions in javascript based on cucumber feature files",
   "homepage": "",
   "author": {
-    "name": "lamartire",
-    "email": "lamartire@gmail.com",
-    "url": "darkened.space"
+    "name": "Julia Moses",
+    "email": "jmoses@shorecg.com"
   },
   "files": [
     "generators"
@@ -21,7 +20,6 @@
     "cucumber": "^1.3.2",
     "eslint": "^3.18.0",
     "eslint-config-xo-space": "^0.16.0",
-    "gherkin": "^4.1.1",
     "jest": "^19.0.2",
     "jest-cli": "^19.0.1",
     "nsp": "^2.6.3",
@@ -29,6 +27,7 @@
     "yeoman-test": "^1.6.0"
   },
   "dependencies": {
+    "gherkin": "^4.1.1",
     "chalk": "^1.1.3",
     "yeoman-generator": "^1.0.0",
     "yosay": "^2.0.0"
@@ -54,6 +53,6 @@
       "array-callback-return": 0
     }
   },
-  "repository": "lamartire/generator-cucumber-steps",
+  "repository": "shorecg/generator-cucumber-steps",
   "license": "MIT"
 }

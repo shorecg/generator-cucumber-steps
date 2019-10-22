@@ -1,9 +1,7 @@
 # generator-cucumber-steps [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> Fast steps-defs based on features generation :watermelon:
+> Generates step definitions in javascript based on cucumber feature files :watermelon:
 
 ![demo](http://i.imgur.com/Wh078Pu.gif)
-
-[This docs on Russian](https://github.com/lamartire/generator-cucumber-steps/blob/master/README_RU.md).
 
 You are tired of creating a "steps file"? Me too, so I decided to simplify my problem.
 
@@ -57,7 +55,6 @@ defineSupportCode(function ({Given, When, Then}) {
 
 Dictionary in new version of gherkin was changed. Be careful if you write your features with locale support!
 
-For example, in Russian localization, key word `Если` now refer to `Given`. Use `Когда` or synonyms of `И`.
 
 ## License
 
